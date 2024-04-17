@@ -18,8 +18,8 @@
   position: relative;
 }
 .timer {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 5px solid white;
   display: flex;
@@ -29,7 +29,7 @@
   font-weight: 600;
   position: absolute;
   bottom: 10px;
-  left: 80px;
+  left: 130px;
 }
 .bottom {
   height: 50%;
@@ -41,6 +41,7 @@
   align-items: center;
   justify-content: space-around;
   color: white;
+  margin-top: 30px;
 }
 .question {
   width: 80%;
@@ -49,7 +50,7 @@
   text-align: center;
   padding: 25px;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 25px;
 }
 .answers {
   width: 100%;
@@ -65,7 +66,7 @@
   background: linear-gradient(#0e0124, #22074d);
   border: 1px solid white;
   border-radius: 15px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
   cursor: pointer;
   margin: 8px 10px 20px 10px;
